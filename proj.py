@@ -204,7 +204,6 @@ if __name__ == "__main__":
                 img_ty_orign = (mat * coordinates[i]).reshape(400,400)
                 cv2.imencode('.jpg', img_ty_orign)[1].tofile(new_root_c)
 
-
                 # 测试图投影
                 new_root_d = "results/" + each_tested[
                                                                                          0:-4] + " 像 " + clean_name(

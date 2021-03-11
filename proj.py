@@ -6,7 +6,7 @@ import shutil
 
 if __name__ == "__main__":
     print("抓取 测试脸")
-    # 抓取测试脸
+    # Catch test faces 抓取测试脸
     face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_alt.xml')
     test_images_root = ("test_images")
     test_faces_root = ("test_faces")
